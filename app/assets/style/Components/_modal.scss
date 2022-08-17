@@ -1,0 +1,36 @@
+.login-modal{
+  .modal-title{
+    margin-left: 45%;
+  }
+}
+.modal-body{
+  width: 331px;
+  input{
+    display: block;
+  }
+  img{
+    width: 24px;
+    position: absolute;
+    left:32px;
+  }
+}
+
+.modal-text-after::before{
+  content: '';
+  position: absolute;
+  left: -15%;
+  bottom:38%;
+  height: 1px;
+  width: 104px;
+  background-color: $light2;
+}
+
+.modal-text-after::after{
+  content: '';
+  position: absolute;
+  right: -15%;
+  bottom:38%;
+  height: 1px;
+  width: 104px;
+  background-color: $light2;
+}

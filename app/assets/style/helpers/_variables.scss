@@ -100,6 +100,7 @@ $light:         #2D2D2D !default;
 $dark:          #1C1C1C !default;
 $light2:          #C1C1C1 !default;
 $light3:          #909090 !default;
+$black:         black!default;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
@@ -113,7 +114,8 @@ $theme-colors: (
   "light":      $light,
   "light2":      $light2,
   "light3":      $light3,
-  "dark":       $dark
+  "dark":       $dark,
+  "black":       $black,
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -1266,11 +1268,11 @@ $modal-dialog-margin-y-sm-up:       1.75rem !default;
 
 $modal-title-line-height:           $line-height-base !default;
 
-$modal-content-color:               null !default;
-$modal-content-bg:                  $white !default;
-$modal-content-border-color:        rgba($black, .2) !default;
+$modal-content-color:               $secondary !default;
+$modal-content-bg:                  $light !default;
+$modal-content-border-color:        $secondary !default;
 $modal-content-border-width:        $border-width !default;
-$modal-content-border-radius:       $border-radius-lg !default;
+$modal-content-border-radius:       0 !default;
 $modal-content-inner-border-radius: subtract($modal-content-border-radius, $modal-content-border-width) !default;
 $modal-content-box-shadow-xs:       $box-shadow-sm !default;
 $modal-content-box-shadow-sm-up:    $box-shadow !default;
@@ -1451,14 +1453,14 @@ $spinner-border-width-sm: .2em !default;
 // Close
 
 // scss-docs-start close-variables
-$btn-close-width:            1em !default;
+$btn-close-width:            0.9em !default;
 $btn-close-height:           $btn-close-width !default;
 $btn-close-padding-x:        .25em !default;
 $btn-close-padding-y:        $btn-close-padding-x !default;
-$btn-close-color:            $black !default;
+$btn-close-color:            $secondary !default;
 $btn-close-bg:               url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$btn-close-color}'><path d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/></svg>") !default;
 $btn-close-focus-shadow:     $input-btn-focus-box-shadow !default;
-$btn-close-opacity:          .5 !default;
+$btn-close-opacity:          1 !default;
 $btn-close-hover-opacity:    .75 !default;
 $btn-close-focus-opacity:    1 !default;
 $btn-close-disabled-opacity: .25 !default;

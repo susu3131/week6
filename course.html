@@ -8,7 +8,9 @@
     <title>Boostrap Index</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="./assets/style/all.css">
+    <script src="dist/js/swiper-bundle.min.js"></script>
   </head>
 
   <body>
@@ -27,13 +29,36 @@
           </li>
           <li class="nav-item d-flex align-items-center  ">
             <span class="material-icons ">account_circle</span>
-            <a class="nav-link" href="Register.html">登入</a>
+            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#login" href="product.html">登入</a>
           </li>
         </ul>
       </div>
   </nav>  
 
+
+
+
     
+<span class="material-icons">
+  verified
+</span>
+<span class="material-icons">
+  military_tech
+</span>
+
+<span class="material-icons">
+  title
+</span>
+
+<span class="material-icons">
+  work
+</span>
+<span class="material-icons">
+  done
+</span>
+<span class="material-icons">
+  arrow_forward_ios
+</span>
 
     <footer class="footer text-center text-light3 m-0  bg-footer border-top">
       <p class="p-4 m-0">Coding Home © 2022 All Rights Reserved</p>
@@ -44,3 +69,51 @@
   </body>
 
 </html>
+
+
+
+<!-- login Modal -->
+<div class=" modal fade login-modal" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content ">
+      <!-- modal標題 -->
+      <div class="modal-header position-relative border-0 p-4 mb-2">
+        <h2 class="modal-title fsz-4 lh-4 fw-bold" id="exampleModalLabel">登入</h2>
+        <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <!-- modal 內容 -->
+      <div class="modal-body  mx-auto p-0 overflow-hidden">
+        <div class="box-1">
+          <div class="input-group text-light2  ">
+            <label for="email" class="w-100">信箱
+              <input type="text " id="email" name="email" class="form-control  bg-dark pt-2 pb-2 ps-3 mt-1 mb-4"
+                placeholder="請輸入信箱">
+            </label>
+          </div>
+          <div class="input-group text-light2">
+            <label for="password" class="w-100">密碼
+              <input type="password" id="password" name="password" class="form-control bg-dark pt-2 pb-2 ps-3 mt-1 mb-4"
+                placeholder="請輸入密碼">
+            </label>
+          </div>
+          <a href="product.html">
+            <button class="btn btn-secondary w-100">登入</button>
+          </a>
+        </div>
+        <div class="box-2 mt-6 ">
+          <p class="text-center text-light2 modal-text-after ">其他登入方式</p>
+          <a href="#" class="text-decoration-none">
+            <button class="btn btn-outline-secondary w-100 d-block mb-4 ps-5">
+              <img src="./assets/images/icon_fb.svg" alt="icon_fb.svg">Facebook 登入
+            </button>
+          </a>
+          <a href="#" class="text-decoration-none">
+            <button class=" btn btn-outline-secondary w-100 d-block mb-6  ps-5">
+              <img src="./assets/images/icon_google.svg" alt="icon_google.svg">Google 登入
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

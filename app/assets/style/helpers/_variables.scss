@@ -1,3 +1,26 @@
+// font 字體自訂
+
+$font-size1:48px;
+$line-height1:70px;
+
+$font-size2:32px;
+$line-height2:37px;
+
+$font-size3:28px;
+$line-height3:40px;
+
+$font-size4:24px;
+$line-height4:35px;
+
+$font-size5:20px;
+$line-height5:29px;
+
+$font-size6:18px;
+$line-height6:26px;
+
+$font-size7:16px;
+$line-height7:24px;
+
 // Variables
 //
 // Variables should follow the `$component-state-property-size` formula for
@@ -635,9 +658,9 @@ $btn-font-size-lg:            $input-btn-font-size-lg !default;
 $btn-border-width:            $input-btn-border-width !default;
 
 $btn-font-weight:             $font-weight-normal !default;
-$btn-box-shadow:              inset 0 1px 0 rgba($white, .15), 0 1px 1px rgba($black, .075) !default;
-$btn-focus-width:             $input-btn-focus-width !default;
-$btn-focus-box-shadow:        $input-btn-focus-box-shadow !default;
+$btn-box-shadow:              inset 0 0px 0 rgba($white, .15), 0 1px 1px rgba($black, .075) !default;
+$btn-focus-width:             3px !default;
+$btn-focus-box-shadow:        0 !default;
 $btn-disabled-opacity:        .65 !default;
 $btn-active-box-shadow:       inset 0 3px 5px rgba($black, .125) !default;
 
@@ -646,7 +669,7 @@ $btn-link-hover-color:        $link-hover-color !default;
 $btn-link-disabled-color:     $gray-600 !default;
 
 // Allows for customizing button radius independently from global border radius
-$btn-border-radius:           $border-radius !default;
+$btn-border-radius:           8px !default;
 $btn-border-radius-sm:        $border-radius-sm !default;
 $btn-border-radius-lg:        $border-radius-lg !default;
 

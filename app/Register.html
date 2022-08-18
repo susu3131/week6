@@ -4,24 +4,45 @@ layout: ./app/layout.ejs
 engine: ejs
 current: index
 ---
-<div class="bg-dark ">
-  <div class="container schedule d-flex col-8 justify-content-between pt-4 ">
-    <div class="schedule-box">
-      <div class="circle border d-flex justify-content-center align-items-center mx-auto">1</div>
-      <p class="mt-1">課程報名</p>
+<!-- 進度123 -->
+<div class="register-schedule pt-5 pb-6">
+  <div class="position-relative  col-9 mx-auto container">
+    <div class="progress" style="height: 1px;">
+      <div class="progress-bar bg-success" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0"
+        aria-valuemax="100"></div>
     </div>
-    <div class="schedule-box">
-      <div class="circle border d-flex justify-content-center align-items-center mx-auto">2</div>
-      <p class="mt-1">課程報名</p>
-    </div>
-    <div class="schedule-box">
-      <div class="circle border d-flex justify-content-center align-items-center mx-auto">3</div>
-      <p class="mt-1">課程報名</p>
-    </div>
+
+    <button type="button"
+      class=" register-icon position-absolute top-0 start-0 translate-middle border-0 bg-success rounded-pill">
+      <div class="icon-box">
+        <span class="material-icons position-absolute  text-secondary translate-middle ">
+          done
+        </span>
+      </div>
+    </button>
+    <p class="text-secondary position-absolute top-0 mt-4 start-0 translate-middle text-success">課程報名</p>
+    <button type="button"
+      class="register-icon position-absolute top-0 start-50 translate-middle  btn btn-sm bg-light border-secondary rounded-pill">
+      2
+    </button>
+    <p class=" position-absolute top-0 mt-4 start-50 translate-middle">信用卡付款</p>
+    <button type="button"
+      class="register-icon position-absolute top-0 start-100 translate-middle btn btn-sm bg-light border-secondary rounded-pill">
+      3
+    </button>
+    <p class=" position-absolute top-0 mt-4 start-100 translate-middle col-12 text-center">付款成功</p>
   </div>
 </div>
+<!-- card -->
+<div class="container mt-3">
+  <div class="card " style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+        content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
 
-<div class="bg-black">
-
-  <p>123</p>
 </div>

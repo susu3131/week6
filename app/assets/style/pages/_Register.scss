@@ -20,7 +20,7 @@
   position: absolute;
   top: 100%;
   left: 45%;
-  background-color: $black;
+
   border-right: 12px solid transparent;
   border-left: 12px solid transparent;
   border-top: 12px solid $light;
@@ -29,5 +29,53 @@
 .sign-up-button{
   .btn{
     width: 49%;
+  }
+}
+
+@include ipad-lg{
+  .register-schedule{
+    background: $dark;
+  }
+  .register{
+    display: flex;
+    justify-content: end ;
+  }
+  .register-content{
+    display: flex;
+  }
+  .register-card {
+    font-size:14px;
+    position: absolute;
+    left: 2%;
+    width: 30%;
+    .card-body{
+      padding: 16px !important;
+    }
+    .register-card::before{
+display: none;
+  }
+  }
+
+  .sign-up{
+    justify-content:end ;
+  }
+}
+
+@include web{
+
+  .register-content{
+    display: flex;
+    width: 80.4%;
+  }
+  .register-card::before{
+    position: absolute;
+    top: 50%;
+    left: 100%;
+
+    border-right: 0px solid transparent;
+    border-left: 12px solid $light;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent ;
+    
   }
 }

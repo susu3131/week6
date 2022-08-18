@@ -57,7 +57,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: white;
-  background-color: #1C1C1C;
+  background-color: #000;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -595,7 +595,7 @@ progress {
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #1C1C1C;
+  background-color: #000;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -2303,7 +2303,7 @@ progress {
   font-weight: 400;
   line-height: 1.5;
   color: white;
-  background-color: #fff;
+  background-color: #1C1C1C;
   background-clip: padding-box;
   border: 1px solid #ced4da;
   -webkit-appearance: none;
@@ -2335,7 +2335,7 @@ progress {
 
 .form-control:focus {
   color: white;
-  background-color: #fff;
+  background-color: #1C1C1C;
   border-color: #8e8e8e;
   outline: 0;
   -webkit-box-shadow: 0 0 0 0.25rem rgba(28, 28, 28, 0.25);
@@ -2538,7 +2538,7 @@ textarea.form-control-lg {
   font-weight: 400;
   line-height: 1.5;
   color: white;
-  background-color: #fff;
+  background-color: #1C1C1C;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
   background-position: right 0.75rem center;
@@ -2615,7 +2615,7 @@ textarea.form-control-lg {
   height: 1em;
   margin-top: 0.25em;
   vertical-align: top;
-  background-color: #fff;
+  background-color: #1C1C1C;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -2742,12 +2742,12 @@ textarea.form-control-lg {
 }
 
 .form-range:focus::-webkit-slider-thumb {
-  -webkit-box-shadow: 0 0 0 1px #1C1C1C, 0 0 0 0.25rem rgba(28, 28, 28, 0.25);
-          box-shadow: 0 0 0 1px #1C1C1C, 0 0 0 0.25rem rgba(28, 28, 28, 0.25);
+  -webkit-box-shadow: 0 0 0 1px #000, 0 0 0 0.25rem rgba(28, 28, 28, 0.25);
+          box-shadow: 0 0 0 1px #000, 0 0 0 0.25rem rgba(28, 28, 28, 0.25);
 }
 
 .form-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #1C1C1C, 0 0 0 0.25rem rgba(28, 28, 28, 0.25);
+  box-shadow: 0 0 0 1px #000, 0 0 0 0.25rem rgba(28, 28, 28, 0.25);
 }
 
 .form-range::-moz-focus-outer {
@@ -4700,8 +4700,8 @@ fieldset:disabled .btn {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: #1C1C1C;
-  border-color: #dee2e6 #dee2e6 #1C1C1C;
+  background-color: #000;
+  border-color: #dee2e6 #dee2e6 #000;
 }
 
 .nav-tabs .dropdown-menu {
@@ -5389,7 +5389,7 @@ fieldset:disabled .btn {
   font-size: 1rem;
   color: white;
   text-align: left;
-  background-color: #1C1C1C;
+  background-color: #000;
   border: 0;
   border-radius: 0;
   overflow-anchor: none;
@@ -5464,7 +5464,7 @@ fieldset:disabled .btn {
 }
 
 .accordion-item {
-  background-color: #1C1C1C;
+  background-color: #000;
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
 
@@ -9040,7 +9040,7 @@ fieldset:disabled .btn {
 }
 
 .bg-body {
-  background-color: #1C1C1C !important;
+  background-color: #000 !important;
 }
 
 .bg-white {
@@ -12303,11 +12303,27 @@ fieldset:disabled .btn {
 }
 
 body {
-  font-family: 'Azeret Mono', monospace,'Noto Sans TC', sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+img {
+  display: block;
+}
+
+a {
+  display: block;
 }
 
 .mt-42 {
   margin-top: 42px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-44 {
+  margin-bottom: 44px;
 }
 
 .mb-80 {
@@ -12334,6 +12350,10 @@ body {
 .gradient-button {
   background: -o-linear-gradient(346deg, #09ACF5, #62DB54);
   background: linear-gradient(104deg, #09ACF5, #62DB54);
+}
+
+.font {
+  font-family: 'Azeret Mono', monospace;
 }
 
 .nav-hide,
@@ -12465,7 +12485,7 @@ footer p {
   padding: 8px 48px;
 }
 
-.card:hover {
+.product-card .card:hover {
   -webkit-transform: scale(1.02);
       -ms-transform: scale(1.02);
           transform: scale(1.02);
@@ -12476,7 +12496,7 @@ footer p {
 }
 
 .bg-black {
-  height: 50vh;
+  height: auto;
 }
 
 .register-icon {
@@ -12489,6 +12509,21 @@ footer p {
 .material-icons {
   top: 50%;
   left: 50%;
+}
+
+.register-card::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 45%;
+  background-color: #000;
+  border-right: 12px solid transparent;
+  border-left: 12px solid transparent;
+  border-top: 12px solid #2D2D2D;
+}
+
+.sign-up-button .btn {
+  width: 49%;
 }
 
 /*# sourceMappingURL=all.css.map */

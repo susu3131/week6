@@ -12516,7 +12516,6 @@ footer p {
   position: absolute;
   top: 100%;
   left: 45%;
-  background-color: #000;
   border-right: 12px solid transparent;
   border-left: 12px solid transparent;
   border-top: 12px solid #2D2D2D;
@@ -12524,6 +12523,60 @@ footer p {
 
 .sign-up-button .btn {
   width: 49%;
+}
+
+@media (min-width: 768px) {
+  .register-schedule {
+    background: #1C1C1C;
+  }
+  .register {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+  }
+  .register-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .register-card {
+    font-size: 14px;
+    position: absolute;
+    left: 2%;
+    width: 30%;
+  }
+  .register-card .card-body {
+    padding: 16px !important;
+  }
+  .register-card .register-card::before {
+    display: none;
+  }
+  .sign-up {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+  }
+}
+
+@media (min-width: 992px) {
+  .register-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 80.4%;
+  }
+  .register-card::before {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    border-right: 0px solid transparent;
+    border-left: 12px solid #2D2D2D;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+  }
 }
 
 /*# sourceMappingURL=all.css.map */

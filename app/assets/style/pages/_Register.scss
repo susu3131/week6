@@ -1,6 +1,5 @@
-
 .bg-black{
-  height:50vh;
+  height: auto;
 }
 
 .register-icon{
@@ -14,4 +13,21 @@
 .material-icons{
   top:50%;
   left:50%;
+}
+
+.register-card::before{
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 45%;
+  background-color: $black;
+  border-right: 12px solid transparent;
+  border-left: 12px solid transparent;
+  border-top: 12px solid $light;
+}
+
+.sign-up-button{
+  .btn{
+    width: 49%;
+  }
 }

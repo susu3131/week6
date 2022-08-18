@@ -1,87 +1,45 @@
-// .fsz-1{
-//   font-size: $font-size1;
-// }
-// .fsz-2{
-//   font-size: $font-size2;
-// }
-// .fsz-3{
-//   font-size: $font-size3;
-// }
-// .fsz-4{
-//   font-size: $font-size4;
-// }
-// .fsz-5{
-//   font-size: $font-size5;
-// }
-// .fsz-6{
-//   font-size: $font-size6;
-// }
-// .fsz-7{
-//   font-size: $font-size7;
-// }
-
-
-// .lh-1{
-//   line-height: $line-height1;
-// }
-// .lh-2{
-//   line-height: $line-height2;
-// }
-// .lh-3{
-//   line-height: $line-height3;
-// }
-// .lh-4{
-//   line-height: $line-height4;
-// }
-// .lh-5{
-//   line-height: $line-height5;
-// }
-// .lh-6{
-//   line-height: $line-height6;
-// }
-// .lh-7{
-//   line-height: $line-height7;
-// }
-
-// .fw-r{
-//   font-weight: $fw-R400;
-// }
-// .fw-m{
-//   font-weight: $fw-M500;
-// }
-// .fw-b{
-//   font-weight: $fw-B700;
-// }
-// .fw-black{
-//   font-weight: $fw-B900;
-// }
-.mt-42{
+//margin
+.mt-42 {
   margin-top: 42px;
-  
+
+}
+.mb-40 {
+  margin-bottom: 40px;
+
 }
 
-.mb-80{
+.mb-44 {
+  margin-bottom: 44px;
+
+}
+
+.mb-80 {
   margin-bottom: 80px;
-  
+
 }
 
-
-.card-12{
+//card
+.card-12 {
   border-radius: 12px;
 }
 
-.card-24{
+.card-24 {
   border-radius: 24px;
 }
 
-
-.gradient-text{
+//gradient
+.gradient-text {
   color: transparent;
   background: linear-gradient(#09ACF5, #62DB54);
   background-clip: text;
   -webkit-background-clip: text;
 }
 
-.gradient-button{
-  background: linear-gradient(104deg,#09ACF5, #62DB54); 
+.gradient-button {
+  background: linear-gradient(104deg, #09ACF5, #62DB54);
+}
+
+//font
+.font{
+  font-family: 'Azeret Mono', monospace;
 }

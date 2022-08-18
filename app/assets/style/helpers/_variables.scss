@@ -1,25 +1,25 @@
-// font 字體自訂
+// // font 字體自訂
 
-$font-size1:48px;
-$line-height1:70px;
+// $font-size1:48px;
+// $line-height1:70px;
 
-$font-size2:32px;
-$line-height2:37px;
+// $font-size2:32px;
+// $line-height2:37px;
 
-$font-size3:28px;
-$line-height3:40px;
+// $font-size3:28px;
+// $line-height3:40px;
 
-$font-size4:24px;
-$line-height4:35px;
+// $font-size4:24px;
+// $line-height4:35px;
 
-$font-size5:20px;
-$line-height5:29px;
+// $font-size5:20px;
+// $line-height5:29px;
 
-$font-size6:18px;
-$line-height6:26px;
+// $font-size6:18px;
+// $line-height6:26px;
 
-$font-size7:16px;
-$line-height7:24px;
+// $font-size7:16px;
+// $line-height7:24px;
 
 // Variables
 //
@@ -98,8 +98,8 @@ $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         #2D2D2D !default;
 $dark:          #1C1C1C !default;
-$light2:          #C1C1C1 !default;
-$light3:          #909090 !default;
+$light2:        #C1C1C1 !default;
+$light3:        #909090 !default;
 $black:         black!default;
 // scss-docs-end theme-color-variables
 
@@ -471,12 +471,13 @@ $line-height-base:            1.5 !default;
 $line-height-sm:              1.25 !default;
 $line-height-lg:              2 !default;
 
-$h1-font-size:                $font-size-base * 2.5 !default;
-$h2-font-size:                $font-size-base * 2 !default;
-$h3-font-size:                $font-size-base * 1.75 !default;
-$h4-font-size:                $font-size-base * 1.5 !default;
-$h5-font-size:                $font-size-base * 1.25 !default;
-$h6-font-size:                $font-size-base !default;
+$h1-font-size:                $font-size-base * 3 !default; //48
+$h2-font-size:                $font-size-base * 2 !default;//32
+$h3-font-size:                $font-size-base * 1.75 !default;//28
+$h4-font-size:                $font-size-base * 1.5 !default;//24
+$h5-font-size:                $font-size-base * 1.25 !default;//20
+$h6-font-size:                $font-size-base * 1.125 !default;//18
+$h7-font-size:                $font-size-base !default; //16px
 // scss-docs-end font-variables
 
 // scss-docs-start font-sizes
@@ -486,7 +487,8 @@ $font-sizes: (
   3: $h3-font-size,
   4: $h4-font-size,
   5: $h5-font-size,
-  6: $h6-font-size
+  6: $h6-font-size,
+  7: $h7-font-size,
 ) !default;
 // scss-docs-end font-sizes
 

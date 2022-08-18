@@ -1,3 +1,17 @@
-.bg-footer{
+.bg-footer {
   background-color: #1A1A1A;
+}
+
+footer {
+  p {
+    font-size: 14px;
+  }
+}
+
+@include ipad-sm {
+  footer {
+    p{
+      font-size: 16px;
+    }
+  }
 }

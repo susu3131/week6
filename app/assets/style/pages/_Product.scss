@@ -6,10 +6,18 @@
   color: $success ;
   border-color: $success;
   background-color: $primary;
+  
 }
 
 .product-button:focus{
   box-shadow: 0ch;
+}
+
+
+.gradient-button:hover{
+  color: black;
+  transition-duration: 0.3s;
+  transform: scaleX(1.02)
 }
 
 

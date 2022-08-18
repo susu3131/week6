@@ -1,5 +1,52 @@
-.nav-img{
-  img{
-    width: 174px;
+.nav-hide,
+.navimg-hide {
+  display: none;
+}
+
+.navimg-hide {
+  display: none;
+}
+
+.nav-img {
+  img {
+    width: 24px;
   }
 }
+
+@include ipad-sm {
+  .nav-hide {
+    display: flex;
+  }
+
+  .navicon-show {
+    display: none;
+  }
+
+  .nav-img {
+    img {
+      width: 35px;
+    }
+  }
+
+  .nav-item {
+    a {
+      padding: 4px;
+    }
+
+  }
+
+}
+
+@include ipad-lg{
+  .navimg-hide{
+    display: block;
+  }
+  .navimg-show{
+    display: none;
+  }
+  .nav-img {
+    img {
+      width: 174px;
+    }
+  }
+} 

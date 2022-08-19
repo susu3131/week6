@@ -3,6 +3,7 @@
   margin-top: 42px;
 
 }
+
 .mb-40 {
   margin-bottom: 40px;
 
@@ -42,4 +43,11 @@
 //font
 .font{
   font-family: 'Azeret Mono', monospace;
+}
+
+
+.button-hover:hover{
+  color: $success ;
+  border-color: $success ;
+  background-color: $primary ;
 }

@@ -1,81 +1,103 @@
-.bg-black{
-  height: auto;
-}
-
-.register-icon{
+.register-icon {
   width: 25px;
   height: 25px;
   font-size: 12px;
-  line-height:10px;
-}
-  
-
-.material-icons{
-  top:50%;
-  left:50%;
+  line-height: 10px;
 }
 
-.register-card::before{
+
+.material-icons {
+  top: 50%;
+  left: 50%;
+}
+
+.register-card::before {
   content: '';
   position: absolute;
   top: 100%;
   left: 45%;
-
   border-right: 12px solid transparent;
   border-left: 12px solid transparent;
   border-top: 12px solid $light;
 }
 
-.sign-up-button{
-  .btn{
+.sign-up-button {
+  .btn {
     width: 49%;
   }
 }
 
-@include ipad-lg{
-  .register-schedule{
+@include ipad-lg {
+  .register-schedule {
     background: $dark;
-  }
-  .register{
-    display: flex;
-    justify-content: end ;
-  }
-  .register-content{
-    display: flex;
-  }
-  .register-card {
-    font-size:14px;
-    position: absolute;
-    left: 2%;
-    width: 30%;
-    .card-body{
-      padding: 16px !important;
-    }
-    .register-card::before{
-display: none;
-  }
   }
 
   .sign-up{
-    justify-content:end ;
+    position: relative;
+    width: 83%;
+    left: 23%;
+  }
+
+  .register-card {
+    position:absolute;
+    left: 2%;
+    width: 23%;
+  }
+  .register-card::before {
+    display: none;
   }
 }
 
-@include web{
-
-  .register-content{
-    display: flex;
-    width: 80.4%;
+@include web {
+  .sign-up{
+    position: relative;
+    width: 76.7%;
+    left: 22%;
   }
-  .register-card::before{
-    position: absolute;
-    top: 50%;
+  .sign-up-choose{
+    margin-left: 50px;
+  }
+  .register-card {
+    position:absolute;
+    top:45%;
+    left: 5%;
+    width: 25%;
+    z-index:100;
+  }
+  
+  .register-card::before {
+    display: block;
+    top: 55%;
     left: 100%;
-
     border-right: 0px solid transparent;
     border-left: 12px solid $light;
     border-top: 12px solid transparent;
-    border-bottom: 12px solid transparent ;
+    border-bottom: 12px solid transparent;
     
   }
+
+  .sign-up {
+    margin-right: 5%;
+  }
+
+  .sign-up-button {
+    margin-right: 2%;
+    .btn{
+      margin-right:12px ;
+    }
+
+  }
+
+  .sign-up-input{
+    .sign-100{
+      width: 100% ;
+    }
+    .sign-50{
+      width: 46% ;
+    }
+    .w-100{
+      width: 24% !important;
+    }
+  }
+  
 }

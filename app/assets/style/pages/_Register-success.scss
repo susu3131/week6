@@ -1,0 +1,17 @@
+.register-success-height{
+  height: 73.3vh;
+}
+
+.register-success{
+  .material-icons{
+    font-size: 43px;
+  }
+  button{
+    width: 204px;
+  }
+}
+
+
+@include ipad-sm{
+  
+}

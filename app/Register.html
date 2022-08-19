@@ -8,7 +8,7 @@ current: index
 <div class="register-schedule pt-5 pb-6  container-fuild ">
   <div class="position-relative  col-9 col-md-8 col-lg-7 mx-auto container">
     <div class="progress" style="height: 1px;">
-      <div class="progress-bar bg-success" role="progressbar" style="width: 50%;" aria-valuenow="0" aria-valuemin="0"
+      <div class="progress-bar bg-success" role="progressbar" style="width: 0;" aria-valuenow="0" aria-valuemin="0"
         aria-valuemax="0"></div>
     </div>
 
@@ -81,21 +81,28 @@ current: index
               <label for="sign-email" class="form-label  text-light3">Email</label>
               <input type="email" class="form-control  pt-2 pb-2 ps-3" id="sign-email" placeholder="請輸入Email">
             </div>
-            <div class="mb-3 sign-50">
-              <label for="sign-email" class=" form-label  text-light3">課程</label>
-              <input type="email" class="form-control   pt-2 pb-2 ps-3" id="sign-email" placeholder="請輸入Email">
+            <div class="dropdown mb-3 sign-50 ">
+              <label for="sign-email" class=" form-label  text-light3 d-block">課程</label>
+              <button class="btn btn-outline-secondary text-light2 dropdown-button w-100 rounded-3 dropdown-toggle  d-flex justify-content-between align-items-center " type="button"  id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                10堂50分鐘
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">6堂50分鐘</a></li>
+                <li><a class="dropdown-item" href="#">3堂50分鐘</a></li>
+                <li><a class="dropdown-item" href="#">1堂30分鐘</a></li>
+              </ul>
             </div>
             <div class="mb-3 sign-50">
               <label for="sign-email" class="  form-label  text-light3">想預約的日期</label>
-              <input type="..." class="form-control  pt-2 pb-2 ps-3" id="sign-email" placeholder="請選擇日期">
+              <input type="date" class="form-control  pt-2 pb-2 ps-3" id="sign-email" placeholder="請選擇日期">
             </div>
             <div class="mb-4 sign-100">
               <label for="sign-map" class="form-label  text-light3">上課地點</label>
               <input type="text" class="form-control  pt-2 pb-2 ps-3" id="sign-map" placeholder="請輸入上課地點">
             </div>
             <div class="d-lg-flex  align-items-lg-center justify-content-lg-between sign-100 mb-4 ">
-              <p class=" fs-6 font mb-0 ">NT$1600</p>
-              <button type="submit" class="btn border-0 w-100  gradient-button pt-2 pb-2 ps-3 pe-3 fs-6 ">前往結賬</button>
+              <p class=" fs-6 font mb-4 mb-lg-0 ">NT$1600</p>
+              <button type="submit" class="btn border-0  gradient-button pt-2 pb-2 ps-3 pe-3 fs-6 ">前往結賬</button>
             </div>
           </form>
         </div>

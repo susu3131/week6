@@ -1,0 +1,15 @@
+
+@include ipad-lg{
+  .sign-up-input{
+    margin: auto;
+    margin-top: 40px !important;
+    margin-bottom: 80px;
+    
+  }
+}
+
+@include web{
+  .payment-button{
+    width: 150px;
+  }
+}

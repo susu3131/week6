@@ -27,6 +27,12 @@
   }
 }
 
+
+.dropdown-button:hover, .dropdown-button:active{
+  background: $dark !important;
+  
+}
+
 @include ipad-lg {
   .register-schedule {
     background: $dark;
@@ -94,9 +100,6 @@
     }
     .sign-50{
       width: 46% ;
-    }
-    .w-100{
-      width: 24% !important;
     }
   }
   

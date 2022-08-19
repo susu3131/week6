@@ -12495,10 +12495,6 @@ footer p {
           transition-duration: 1s;
 }
 
-.bg-black {
-  height: auto;
-}
-
 .register-icon {
   width: 25px;
   height: 25px;
@@ -12529,53 +12525,63 @@ footer p {
   .register-schedule {
     background: #1C1C1C;
   }
-  .register {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
-  }
-  .register-content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  .sign-up {
+    position: relative;
+    width: 83%;
+    left: 23%;
   }
   .register-card {
-    font-size: 14px;
     position: absolute;
     left: 2%;
-    width: 30%;
+    width: 23%;
   }
-  .register-card .card-body {
-    padding: 16px !important;
-  }
-  .register-card .register-card::before {
+  .register-card::before {
     display: none;
-  }
-  .sign-up {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
   }
 }
 
 @media (min-width: 992px) {
-  .register-content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 80.4%;
+  .sign-up {
+    position: relative;
+    width: 76.7%;
+    left: 22%;
+  }
+  .sign-up-choose {
+    margin-left: 50px;
+  }
+  .register-card {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 25%;
+    z-index: 100;
   }
   .register-card::before {
-    position: absolute;
-    top: 50%;
+    display: block;
+    top: 55%;
     left: 100%;
     border-right: 0px solid transparent;
     border-left: 12px solid #2D2D2D;
     border-top: 12px solid transparent;
     border-bottom: 12px solid transparent;
+  }
+  .sign-up {
+    margin-right: 5%;
+  }
+  .sign-up-button {
+    margin-right: 2%;
+  }
+  .sign-up-button .btn {
+    margin-right: 12px;
+  }
+  .sign-up-input .sign-100 {
+    width: 100%;
+  }
+  .sign-up-input .sign-50 {
+    width: 46%;
+  }
+  .sign-up-input .w-100 {
+    width: 24% !important;
   }
 }
 

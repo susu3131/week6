@@ -12851,12 +12851,24 @@ ul {
   margin-bottom: 21px;
 }
 
+.mb-28 {
+  margin-bottom: 28px;
+}
+
 .mb-40 {
   margin-bottom: 40px;
 }
 
 .mb-44 {
   margin-bottom: 44px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-66 {
+  margin-bottom: 66px;
 }
 
 .mb-80 {
@@ -12894,6 +12906,10 @@ ul {
   border-color: #62DB54;
 }
 
+.primary-bg:hover {
+  background: #1C1C1C;
+}
+
 .color-hover:hover {
   color: #62DB54;
   border-color: #62DB54;
@@ -12923,6 +12939,23 @@ ul {
   width: 10px;
   height: 10px;
   background: white;
+}
+
+.nav-border::after {
+  content: "";
+  position: absolute;
+  border-bottom: solid 2px #09ACF5;
+  width: 50%;
+  left: 50%;
+  bottom: 0%;
+}
+
+.nav-border::before {
+  content: "";
+  position: absolute;
+  border-bottom: solid 2px #62DB54;
+  width: 50%;
+  bottom: 0%;
 }
 
 .nav-hide,
@@ -13037,6 +13070,29 @@ footer p {
   height: 72.58vh;
 }
 
+.index-about .bg-dark-color {
+  background: #202020;
+}
+
+.index-about .index-about-box .material-icons {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.index-plan .index-number {
+  padding: 0 8px;
+  font-size: 48px;
+  line-height: 56px;
+  background: #1C1C1C;
+  left: 25%;
+}
+
+.index-joinme .material-icons {
+  font-size: 100px;
+  line-height: 80px;
+  opacity: 0.5;
+}
+
 .list-style {
   list-style-type: square;
   margin-left: -13px;
@@ -13088,13 +13144,11 @@ footer p {
 }
 
 .gradient-button:hover {
-  color: black;
-  -webkit-transition-duration: 0.3s;
-       -o-transition-duration: 0.3s;
-          transition-duration: 0.3s;
-  -webkit-transform: scaleX(1.02);
-      -ms-transform: scaleX(1.02);
-          transform: scaleX(1.02);
+  color: #1C1C1C;
+  -webkit-transition-duration: 0.5s;
+       -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  border: 1px #C1C1C1 solid;
 }
 
 .product-card-button {

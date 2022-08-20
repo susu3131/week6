@@ -13065,7 +13065,7 @@ footer p {
 }
 
 .index-banner {
-  background-image: url(.././images/bg_home.jpg);
+  background-image: url(../../images/bg_home_mobile.jpg);
   background-size: cover;
   height: 72.58vh;
 }
@@ -13091,6 +13091,12 @@ footer p {
   font-size: 100px;
   line-height: 80px;
   opacity: 0.5;
+}
+
+@media (min-width: 768px) {
+  .index-banner {
+    background-image: url(.././images/bg_home.jpg);
+  }
 }
 
 .list-style {
@@ -13121,7 +13127,7 @@ footer p {
   opacity: 1;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .course-class h2, .course-class .h2 {
     margin-top: 40px;
     margin-bottom: 64px;
@@ -13217,7 +13223,7 @@ footer p {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .sign-up {
     position: relative;
     width: 76.7%;
@@ -13267,7 +13273,7 @@ footer p {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .payment-button {
     width: 150px;
   }

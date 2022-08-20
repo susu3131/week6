@@ -1,5 +1,5 @@
 .index-banner{
-  background-image: url(.././images/bg_home.jpg);
+  background-image: url(../../images/bg_home_mobile.jpg);
   background-size: cover;
   height: 72.58vh;
 }
@@ -40,19 +40,8 @@
 
 
 
-@mixin phone{
+@include pc{
   .index-banner{
-    background-image: url(../../images/bg_home_mobile.jpg);
+    background-image: url(.././images/bg_home.jpg);
   }
-  
-  
-
-}
-
-
-@include ipad-lg{
-
-
-
-
 }

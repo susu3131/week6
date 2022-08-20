@@ -1,5 +1,5 @@
-@mixin web {
-  @media(min-width: 992px){
+@mixin pc {
+  @media(min-width: 768px){
     @content;
   }
   
@@ -18,7 +18,6 @@
   }
   
 }
-
 
 
 

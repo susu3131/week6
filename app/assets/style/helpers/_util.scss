@@ -12,6 +12,10 @@
   margin-bottom: 21px;
 
 }
+.mb-28 {
+  margin-bottom: 28px;
+
+}
 
 .mb-40 {
   margin-bottom: 40px;
@@ -22,7 +26,14 @@
   margin-bottom: 44px;
 
 }
+.mb-50 {
+  margin-bottom: 50px;
 
+}
+.mb-66 {
+  margin-bottom: 66px;
+
+}
 .mb-80 {
   margin-bottom: 80px;
 
@@ -59,6 +70,10 @@
 .button-hover:hover{
   color: $success ;
   border-color: $success ;
+}
+
+.primary-bg:hover{
+  background: $primary;
 }
 
 //hover

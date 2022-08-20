@@ -1,3 +1,19 @@
+.nav-border::after{
+  content:"";
+  position: absolute;
+  border-bottom: solid 2px $info;
+  width: 50%;
+  left: 50%;
+  bottom:0%;
+}
+.nav-border::before{
+  content:"";
+  position: absolute;
+  border-bottom: solid 2px $success;
+  width: 50%;
+  bottom:0%;
+}
+
 .nav-hide,
 .navimg-hide {
   display: none;

@@ -5,6 +5,39 @@
 }
 
 
+.index-about{
+  .bg-dark-color{
+    background: #202020;
+  }
+  .index-about-box{
+    .material-icons{
+      font-size: 40px;
+      line-height: 40px;
+    }
+  }
+
+}
+
+.index-plan{
+  .index-number{
+    padding: 0 8px;
+    font-size: 48px;
+    line-height: 56px;
+    background: $dark;
+    left:25%;
+  }
+
+}
+
+.index-joinme{
+  .material-icons{
+    font-size: 100px;
+    line-height: 80px;
+    opacity: 0.5;
+  }
+}
+
+
 
 
 @mixin phone{
@@ -13,5 +46,13 @@
   }
   
   
+
+}
+
+
+@include ipad-lg{
+
+
+
 
 }

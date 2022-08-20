@@ -27,6 +27,16 @@
   margin-bottom: 80px;
 
 }
+//padding
+
+.pt-40 {
+  padding-top: 40px;
+
+}
+.pb-40 {
+  padding-bottom: 40px;
+
+}
 
 //card
 .card-12 {
@@ -54,10 +64,42 @@
   font-family: 'Azeret Mono', monospace;
 }
 
-
+//button
 .button-hover:hover{
   color: $success ;
   border-color: $success ;
   background-color: $primary ;
 }
 
+//hover
+.color-hover:hover{
+  color: $success ;
+  border-color: $success ;
+}
+
+//list
+.list-none{
+  list-style: none;
+}
+
+
+.tittle-border{
+margin-left: auto;
+margin-right: auto;
+  
+}
+
+.tittle-border::before{
+  content: "";
+  position: absolute;
+  width: 50px;
+  border-bottom:  solid 3px $success ;
+  bottom: -16px;
+  transform:(translatex(- 50%))
+}
+
+.box-border{
+  width: 10px;
+  height: 10px;
+  background: $secondary;
+}

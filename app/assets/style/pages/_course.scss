@@ -1,0 +1,38 @@
+.list-style{
+  list-style-type:square;
+  margin-left: -13px;
+}
+::marker{
+  color: $success;
+}
+
+.course-money{
+  .course-circle{
+    width: 32px;
+    height: 32px;
+  }
+  span{
+    line-height: 16px;
+    font-size: 16px;
+  }
+}
+.course-class{
+  
+  .course-class-card{
+    opacity: 0.75;
+  }
+  .course-class-card:hover{
+    outline: $success 2px solid;
+    opacity: 1;
+    
+  }
+}
+@include web{
+  .course-class{
+    h2{
+      margin-top: 40px;
+      margin-bottom: 64px;
+    }
+
+  }
+}

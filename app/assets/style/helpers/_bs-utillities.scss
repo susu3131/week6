@@ -141,7 +141,10 @@ $utilities: map-merge(
       class: w,
       values: (
         20: 20%,
+        24: 24%,
         25: 25%,
+        48: 48%,
+        49: 49%,
         50: 50%,
         75: 75%,
         100: 100%,
@@ -434,6 +437,7 @@ $utilities: map-merge(
       values: (monospace: var(--#{$variable-prefix}font-monospace))
     ),
     "font-size": (
+      responsive: true,
       rfs: true,
       property: font-size,
       class: fs,

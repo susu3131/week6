@@ -8042,6 +8042,10 @@ fieldset:disabled .btn {
   width: 75% !important;
 }
 
+.w-85 {
+  width: 85% !important;
+}
+
 .w-100 {
   width: 100% !important;
 }
@@ -9221,6 +9225,9 @@ fieldset:disabled .btn {
   .w-sm-75 {
     width: 75% !important;
   }
+  .w-sm-85 {
+    width: 85% !important;
+  }
   .w-sm-100 {
     width: 100% !important;
   }
@@ -9932,6 +9939,9 @@ fieldset:disabled .btn {
   }
   .w-md-75 {
     width: 75% !important;
+  }
+  .w-md-85 {
+    width: 85% !important;
   }
   .w-md-100 {
     width: 100% !important;
@@ -10645,6 +10655,9 @@ fieldset:disabled .btn {
   .w-lg-75 {
     width: 75% !important;
   }
+  .w-lg-85 {
+    width: 85% !important;
+  }
   .w-lg-100 {
     width: 100% !important;
   }
@@ -11357,6 +11370,9 @@ fieldset:disabled .btn {
   .w-xl-75 {
     width: 75% !important;
   }
+  .w-xl-85 {
+    width: 85% !important;
+  }
   .w-xl-100 {
     width: 100% !important;
   }
@@ -12068,6 +12084,9 @@ fieldset:disabled .btn {
   }
   .w-xxl-75 {
     width: 75% !important;
+  }
+  .w-xxl-85 {
+    width: 85% !important;
   }
   .w-xxl-100 {
     width: 100% !important;
@@ -12816,6 +12835,10 @@ a {
   display: block;
 }
 
+ul {
+  list-style: none;
+}
+
 .mt-42 {
   margin-top: 42px;
 }
@@ -12848,14 +12871,6 @@ a {
   padding-bottom: 40px;
 }
 
-.card-12 {
-  border-radius: 12px;
-}
-
-.card-24 {
-  border-radius: 24px;
-}
-
 .gradient-text {
   color: transparent;
   background: -webkit-gradient(linear, left top, left bottom, from(#09ACF5), to(#62DB54));
@@ -12877,7 +12892,6 @@ a {
 .button-hover:hover {
   color: #62DB54;
   border-color: #62DB54;
-  background-color: #1C1C1C;
 }
 
 .color-hover:hover {
@@ -12924,6 +12938,10 @@ a {
   width: 24px;
 }
 
+#nav-phone {
+  display: none;
+}
+
 @media (min-width: 576px) {
   .nav-hide {
     display: -webkit-box;
@@ -12965,6 +12983,14 @@ footer p {
   footer p {
     font-size: 16px;
   }
+}
+
+.card-12 {
+  border-radius: 12px;
+}
+
+.card-24 {
+  border-radius: 24px;
 }
 
 .login-modal .modal-title {
@@ -13072,17 +13098,20 @@ footer p {
 }
 
 .product-card-button {
-  padding: 8px 48px;
+  padding: 8px 16px;
 }
 
-.product-card .card:hover {
-  -webkit-transform: scale(1.02);
-      -ms-transform: scale(1.02);
-          transform: scale(1.02);
-  opacity: 0.9;
-  -webkit-transition-duration: 1s;
-       -o-transition-duration: 1s;
-          transition-duration: 1s;
+.product-card:hover {
+  background: #2b2b2b !important;
+  -webkit-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+  opacity: 0.8;
+  border: 1px #C1C1C1 solid;
+}
+
+.register .button-hover:hover {
+  background: #1C1C1C;
 }
 
 .register-icon {

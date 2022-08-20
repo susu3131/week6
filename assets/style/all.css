@@ -13065,9 +13065,18 @@ footer p {
 }
 
 .index-banner {
-  background-image: url(../../images/bg_home_mobile.jpg);
+  background-image: url(.././images/bg_home_mobile.jpg);
   background-size: cover;
-  height: 72.58vh;
+  height: 38.6vh;
+}
+
+.index-banner .index-banner-box {
+  background: #202020;
+}
+
+.index-banner .font-14 {
+  font-size: 14px;
+  text-align: justify;
 }
 
 .index-about .bg-dark-color {
@@ -13096,6 +13105,7 @@ footer p {
 @media (min-width: 768px) {
   .index-banner {
     background-image: url(.././images/bg_home.jpg);
+    height: 100vh;
   }
 }
 

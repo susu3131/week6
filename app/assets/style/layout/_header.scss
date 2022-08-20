@@ -12,6 +12,10 @@
     width: 24px;
   }
 }
+#nav-phone{
+  display: none;
+}
+
 
 @include ipad-sm {
   .nav-hide {

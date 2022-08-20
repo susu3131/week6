@@ -38,15 +38,6 @@
 
 }
 
-//card
-.card-12 {
-  border-radius: 12px;
-}
-
-.card-24 {
-  border-radius: 24px;
-}
-
 //gradient
 .gradient-text {
   color: transparent;
@@ -68,7 +59,6 @@
 .button-hover:hover{
   color: $success ;
   border-color: $success ;
-  background-color: $primary ;
 }
 
 //hover

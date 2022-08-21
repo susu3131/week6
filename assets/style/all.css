@@ -9234,6 +9234,21 @@ fieldset:disabled .btn {
   .w-sm-auto {
     width: auto !important;
   }
+  .h-sm-25 {
+    height: 25% !important;
+  }
+  .h-sm-50 {
+    height: 50% !important;
+  }
+  .h-sm-75 {
+    height: 75% !important;
+  }
+  .h-sm-100 {
+    height: 100% !important;
+  }
+  .h-sm-auto {
+    height: auto !important;
+  }
   .flex-sm-fill {
     -webkit-box-flex: 1 !important;
         -ms-flex: 1 1 auto !important;
@@ -9831,6 +9846,57 @@ fieldset:disabled .btn {
   .text-sm-center {
     text-align: center !important;
   }
+  .text-sm-primary {
+    color: #1C1C1C !important;
+  }
+  .text-sm-secondary {
+    color: white !important;
+  }
+  .text-sm-success {
+    color: #62DB54 !important;
+  }
+  .text-sm-info {
+    color: #09ACF5 !important;
+  }
+  .text-sm-warning {
+    color: #ffc107 !important;
+  }
+  .text-sm-danger {
+    color: #dc3545 !important;
+  }
+  .text-sm-light {
+    color: #2D2D2D !important;
+  }
+  .text-sm-light2 {
+    color: #C1C1C1 !important;
+  }
+  .text-sm-light3 {
+    color: #909090 !important;
+  }
+  .text-sm-dark {
+    color: #1C1C1C !important;
+  }
+  .text-sm-black {
+    color: #000 !important;
+  }
+  .text-sm-white {
+    color: #fff !important;
+  }
+  .text-sm-body {
+    color: white !important;
+  }
+  .text-sm-muted {
+    color: #6c757d !important;
+  }
+  .text-sm-black-50 {
+    color: rgba(0, 0, 0, 0.5) !important;
+  }
+  .text-sm-white-50 {
+    color: rgba(255, 255, 255, 0.5) !important;
+  }
+  .text-sm-reset {
+    color: inherit !important;
+  }
   .bg-sm-primary {
     background-color: #1C1C1C !important;
   }
@@ -9948,6 +10014,21 @@ fieldset:disabled .btn {
   }
   .w-md-auto {
     width: auto !important;
+  }
+  .h-md-25 {
+    height: 25% !important;
+  }
+  .h-md-50 {
+    height: 50% !important;
+  }
+  .h-md-75 {
+    height: 75% !important;
+  }
+  .h-md-100 {
+    height: 100% !important;
+  }
+  .h-md-auto {
+    height: auto !important;
   }
   .flex-md-fill {
     -webkit-box-flex: 1 !important;
@@ -10546,6 +10627,57 @@ fieldset:disabled .btn {
   .text-md-center {
     text-align: center !important;
   }
+  .text-md-primary {
+    color: #1C1C1C !important;
+  }
+  .text-md-secondary {
+    color: white !important;
+  }
+  .text-md-success {
+    color: #62DB54 !important;
+  }
+  .text-md-info {
+    color: #09ACF5 !important;
+  }
+  .text-md-warning {
+    color: #ffc107 !important;
+  }
+  .text-md-danger {
+    color: #dc3545 !important;
+  }
+  .text-md-light {
+    color: #2D2D2D !important;
+  }
+  .text-md-light2 {
+    color: #C1C1C1 !important;
+  }
+  .text-md-light3 {
+    color: #909090 !important;
+  }
+  .text-md-dark {
+    color: #1C1C1C !important;
+  }
+  .text-md-black {
+    color: #000 !important;
+  }
+  .text-md-white {
+    color: #fff !important;
+  }
+  .text-md-body {
+    color: white !important;
+  }
+  .text-md-muted {
+    color: #6c757d !important;
+  }
+  .text-md-black-50 {
+    color: rgba(0, 0, 0, 0.5) !important;
+  }
+  .text-md-white-50 {
+    color: rgba(255, 255, 255, 0.5) !important;
+  }
+  .text-md-reset {
+    color: inherit !important;
+  }
   .bg-md-primary {
     background-color: #1C1C1C !important;
   }
@@ -10663,6 +10795,21 @@ fieldset:disabled .btn {
   }
   .w-lg-auto {
     width: auto !important;
+  }
+  .h-lg-25 {
+    height: 25% !important;
+  }
+  .h-lg-50 {
+    height: 50% !important;
+  }
+  .h-lg-75 {
+    height: 75% !important;
+  }
+  .h-lg-100 {
+    height: 100% !important;
+  }
+  .h-lg-auto {
+    height: auto !important;
   }
   .flex-lg-fill {
     -webkit-box-flex: 1 !important;
@@ -11261,6 +11408,57 @@ fieldset:disabled .btn {
   .text-lg-center {
     text-align: center !important;
   }
+  .text-lg-primary {
+    color: #1C1C1C !important;
+  }
+  .text-lg-secondary {
+    color: white !important;
+  }
+  .text-lg-success {
+    color: #62DB54 !important;
+  }
+  .text-lg-info {
+    color: #09ACF5 !important;
+  }
+  .text-lg-warning {
+    color: #ffc107 !important;
+  }
+  .text-lg-danger {
+    color: #dc3545 !important;
+  }
+  .text-lg-light {
+    color: #2D2D2D !important;
+  }
+  .text-lg-light2 {
+    color: #C1C1C1 !important;
+  }
+  .text-lg-light3 {
+    color: #909090 !important;
+  }
+  .text-lg-dark {
+    color: #1C1C1C !important;
+  }
+  .text-lg-black {
+    color: #000 !important;
+  }
+  .text-lg-white {
+    color: #fff !important;
+  }
+  .text-lg-body {
+    color: white !important;
+  }
+  .text-lg-muted {
+    color: #6c757d !important;
+  }
+  .text-lg-black-50 {
+    color: rgba(0, 0, 0, 0.5) !important;
+  }
+  .text-lg-white-50 {
+    color: rgba(255, 255, 255, 0.5) !important;
+  }
+  .text-lg-reset {
+    color: inherit !important;
+  }
   .bg-lg-primary {
     background-color: #1C1C1C !important;
   }
@@ -11378,6 +11576,21 @@ fieldset:disabled .btn {
   }
   .w-xl-auto {
     width: auto !important;
+  }
+  .h-xl-25 {
+    height: 25% !important;
+  }
+  .h-xl-50 {
+    height: 50% !important;
+  }
+  .h-xl-75 {
+    height: 75% !important;
+  }
+  .h-xl-100 {
+    height: 100% !important;
+  }
+  .h-xl-auto {
+    height: auto !important;
   }
   .flex-xl-fill {
     -webkit-box-flex: 1 !important;
@@ -11976,6 +12189,57 @@ fieldset:disabled .btn {
   .text-xl-center {
     text-align: center !important;
   }
+  .text-xl-primary {
+    color: #1C1C1C !important;
+  }
+  .text-xl-secondary {
+    color: white !important;
+  }
+  .text-xl-success {
+    color: #62DB54 !important;
+  }
+  .text-xl-info {
+    color: #09ACF5 !important;
+  }
+  .text-xl-warning {
+    color: #ffc107 !important;
+  }
+  .text-xl-danger {
+    color: #dc3545 !important;
+  }
+  .text-xl-light {
+    color: #2D2D2D !important;
+  }
+  .text-xl-light2 {
+    color: #C1C1C1 !important;
+  }
+  .text-xl-light3 {
+    color: #909090 !important;
+  }
+  .text-xl-dark {
+    color: #1C1C1C !important;
+  }
+  .text-xl-black {
+    color: #000 !important;
+  }
+  .text-xl-white {
+    color: #fff !important;
+  }
+  .text-xl-body {
+    color: white !important;
+  }
+  .text-xl-muted {
+    color: #6c757d !important;
+  }
+  .text-xl-black-50 {
+    color: rgba(0, 0, 0, 0.5) !important;
+  }
+  .text-xl-white-50 {
+    color: rgba(255, 255, 255, 0.5) !important;
+  }
+  .text-xl-reset {
+    color: inherit !important;
+  }
   .bg-xl-primary {
     background-color: #1C1C1C !important;
   }
@@ -12093,6 +12357,21 @@ fieldset:disabled .btn {
   }
   .w-xxl-auto {
     width: auto !important;
+  }
+  .h-xxl-25 {
+    height: 25% !important;
+  }
+  .h-xxl-50 {
+    height: 50% !important;
+  }
+  .h-xxl-75 {
+    height: 75% !important;
+  }
+  .h-xxl-100 {
+    height: 100% !important;
+  }
+  .h-xxl-auto {
+    height: auto !important;
   }
   .flex-xxl-fill {
     -webkit-box-flex: 1 !important;
@@ -12691,6 +12970,57 @@ fieldset:disabled .btn {
   .text-xxl-center {
     text-align: center !important;
   }
+  .text-xxl-primary {
+    color: #1C1C1C !important;
+  }
+  .text-xxl-secondary {
+    color: white !important;
+  }
+  .text-xxl-success {
+    color: #62DB54 !important;
+  }
+  .text-xxl-info {
+    color: #09ACF5 !important;
+  }
+  .text-xxl-warning {
+    color: #ffc107 !important;
+  }
+  .text-xxl-danger {
+    color: #dc3545 !important;
+  }
+  .text-xxl-light {
+    color: #2D2D2D !important;
+  }
+  .text-xxl-light2 {
+    color: #C1C1C1 !important;
+  }
+  .text-xxl-light3 {
+    color: #909090 !important;
+  }
+  .text-xxl-dark {
+    color: #1C1C1C !important;
+  }
+  .text-xxl-black {
+    color: #000 !important;
+  }
+  .text-xxl-white {
+    color: #fff !important;
+  }
+  .text-xxl-body {
+    color: white !important;
+  }
+  .text-xxl-muted {
+    color: #6c757d !important;
+  }
+  .text-xxl-black-50 {
+    color: rgba(0, 0, 0, 0.5) !important;
+  }
+  .text-xxl-white-50 {
+    color: rgba(255, 255, 255, 0.5) !important;
+  }
+  .text-xxl-reset {
+    color: inherit !important;
+  }
   .bg-xxl-primary {
     background-color: #1C1C1C !important;
   }
@@ -12829,6 +13159,8 @@ body {
 
 img {
   display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 a {
@@ -12881,6 +13213,14 @@ ul {
 
 .pb-40 {
   padding-bottom: 40px;
+}
+
+.pt-80 {
+  padding-top: 80px;
+}
+
+.pb-80 {
+  padding-bottom: 80px;
 }
 
 .gradient-text {
@@ -13088,12 +13428,50 @@ footer p {
   line-height: 40px;
 }
 
+.index-about .index-about-hover:hover {
+  outline: #62DB54 1px solid;
+  opacity: 1;
+  background: #202020 !important;
+  -webkit-transition-duration: 0.3s;
+       -o-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
 .index-plan .index-number {
   padding: 0 8px;
   font-size: 48px;
   line-height: 56px;
   background: #1C1C1C;
-  left: 25%;
+  left: 75px;
+}
+
+.index-highlight .card img {
+  height: 29vh;
+  opacity: 0.2;
+}
+
+.index-highlight .op-8 {
+  opacity: 0.4;
+}
+
+.index-highlight .material-icons {
+  font-size: 28px;
+  margin-bottom: 18px;
+}
+
+.index-highlight .bg-opacity:hover img {
+  opacity: 0.8;
+  -webkit-transition-duration: 0.5s;
+       -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.index-highlight .bg-opacity:hover .material-icons {
+  color: #62DB54 !important;
+}
+
+.index-highlight .bg-opacity:hover p {
+  opacity: 1;
 }
 
 .index-joinme .material-icons {
@@ -13106,6 +13484,37 @@ footer p {
   .index-banner {
     background-image: url(.././images/bg_home.jpg);
     height: 100vh;
+  }
+  .index-banner .index-banner-box {
+    padding: 51px 0 !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .index-about {
+    padding: 80px 0 !important;
+  }
+  .index-about .tittle-border {
+    bottom: -16px;
+    bottom: -16px;
+    -webkit-transform: translatex(10%);
+        -ms-transform: translatex(10%);
+            transform: translatex(10%);
+  }
+  .index-plan {
+    padding: 80px 0 !important;
+  }
+  .index-plan .index-plan-number .mb-50 {
+    margin-bottom: 0px;
+  }
+  .index-code-learn {
+    padding: 80px 0 !important;
+  }
+  .index-highlight .card img {
+    height: 615px;
+  }
+  .index-share {
+    padding: 80px 0 !important;
   }
 }
 
@@ -13137,7 +13546,7 @@ footer p {
   opacity: 1;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .course-class h2, .course-class .h2 {
     margin-top: 40px;
     margin-bottom: 64px;
@@ -13233,7 +13642,7 @@ footer p {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .sign-up {
     position: relative;
     width: 76.7%;
@@ -13283,7 +13692,7 @@ footer p {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .payment-button {
     width: 150px;
   }

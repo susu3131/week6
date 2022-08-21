@@ -168,6 +168,7 @@ $utilities: map-merge(
       values: (100: 100vw)
     ),
     "height": (
+      responsive: true,
       property: height,
       class: h,
       values: (
@@ -506,6 +507,7 @@ $utilities: map-merge(
     // scss-docs-end utils-text
     // scss-docs-start utils-color
     "color": (
+      responsive: true,
       property: color,
       class: text,
       values: map-merge(

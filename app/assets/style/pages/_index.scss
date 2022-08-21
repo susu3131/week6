@@ -1,60 +1,139 @@
-.index-banner{
+.index-banner {
   background-image: url(.././images/bg_home_mobile.jpg);
   background-size: cover;
   height: 38.6vh;
-  .index-banner-box{
+
+  .index-banner-box {
     background: #202020;
   }
-  .font-14{
+
+  .font-14 {
     font-size: 14px;
     text-align: justify;
   }
 }
 
 
-.index-about{
-  .bg-dark-color{
+.index-about {
+  .bg-dark-color {
     background: #202020;
   }
-  .index-about-box{
-    .material-icons{
+
+  .index-about-box {
+    .material-icons {
       font-size: 40px;
       line-height: 40px;
     }
   }
 
+  .index-about-hover:hover {
+    outline: $success 1px solid;
+    opacity: 1;
+    background: #202020 !important;
+    transition-duration: 0.3s;
+  }
+
+
 }
 
-.index-plan{
-  .index-number{
+.index-plan {
+  .index-number {
     padding: 0 8px;
     font-size: 48px;
     line-height: 56px;
     background: $dark;
-    left:25%;
+    left: 75px;
   }
 
 }
 
-.index-joinme{
-  .material-icons{
+.index-highlight {
+  .card {
+    img {
+      height: 29vh;
+      opacity: 0.2;
+    }
+  
+  }
+
+  .op-8 {
+    opacity: 0.4;
+  }
+
+  .material-icons {
+    font-size: 28px;
+    margin-bottom: 18px;
+  }
+
+  .bg-opacity:hover{
+    img{
+      opacity: 0.8;
+      transition-duration: 0.5s;
+    }
+    .material-icons{
+      color: $success !important;;
+    }
+    p{
+      opacity: 1;
+    }
+  }
+}
+
+.index-joinme {
+  .material-icons {
     font-size: 100px;
     line-height: 80px;
     opacity: 0.5;
   }
 }
 
-
-
-
-@include pc{
-  .index-banner{
+@include ipad-lg {
+  .index-banner {
     background-image: url(.././images/bg_home.jpg);
     height: 100vh;
 
+    .index-banner-box {
+      padding: 51px 0 !important;
+    }
+  }
+}
 
+
+
+
+
+@include pc {
+  .index-about {
+    padding: 80px 0 !important;
+    .tittle-border {
+      bottom: -16px;
+      bottom: -16px;
+      transform: (translatex(10%))
+    }
   }
 
+  .index-plan {
+    padding: 80px 0 !important;
+    .index-plan-number {
+      .mb-50 {
+        margin-bottom: 0px;
+      }
+    }
+  }
 
+.index-code-learn{
+  padding: 80px 0 !important;
+}
 
+  .index-highlight {
+    .card {
+      img {
+        height: 615px;
+      }
+    }
+  }
+  .index-share{
+    padding: 80px 0 !important;
+
+  }
 }

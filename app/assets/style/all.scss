@@ -14,7 +14,6 @@
 @import "./base/base.scss";
 
 // util
-
 @import "./helpers/util";
 @import "./helpers/mixins";
 
@@ -26,6 +25,7 @@
 // // components
 @import "./components/card";
 @import "./components/modal";
+@import "./components/swiper";
 
 // // pages
 @import "./pages/index";
